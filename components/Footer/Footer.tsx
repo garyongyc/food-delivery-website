@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
-import { FaX } from 'react-icons/fa6';
 import { MdDeliveryDining } from 'react-icons/md';
 
 const Footer = () => {
