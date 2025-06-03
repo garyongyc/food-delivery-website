@@ -6,6 +6,7 @@ import HowItWorks from './HowItWorks/HowItWorks';
 import Proposition from './Proposition/Proposition';
 import Features from './Features/Features';
 import Reviews from './Reviews/Reviews';
+import MobileApp from './MobileApp/MobileApp';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Proposition />
       <Features />
       <Reviews />
+      <MobileApp />
     </main>
   );
 };
