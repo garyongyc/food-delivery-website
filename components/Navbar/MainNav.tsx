@@ -28,7 +28,7 @@ const MainNav = ({ toggleNav }: Props) => {
 
   return (
     <header
-      className={`h-[12vh] flex items-center w-full fixed
+      className={`h-[12vh] flex items-center w-full fixed z-[100]
         ${isScrolled ? 'bg-white shadow-md fixed' : 'fixed'}
     `}
     >
